@@ -1,0 +1,45 @@
+/* sideNavBar.css */
+
+.side-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: white; /* White background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  overflow-x: hidden;
+  transition: width 0.5s;
+}
+
+.side-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-nav ul li {
+  padding: 15px 20px;
+}
+
+.side-nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333; /* Dark text color */
+  display: block;
+  transition: 0.3s;
+}
+
+.side-nav ul li a:hover {
+  color: #007bff; /* Blue accent color on hover */
+}
+
+/* Add hover effect to navigation items */
+.side-nav ul li:hover {
+  background-color: #f2f2f2; /* Light gray background color on hover */
+}
+
+/* Add border to separate navigation items */
+.side-nav ul li + li {
+  border-top: 1px solid #ddd; /* Light gray border */
+}

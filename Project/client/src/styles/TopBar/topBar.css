@@ -1,0 +1,35 @@
+/* topBar.css */
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .blue-text {
+    color: blue;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .notifications-icon,
+  .profile-info {
+    margin-right: 16px;
+  }
+  
+  .role {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
