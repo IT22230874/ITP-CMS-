@@ -1,0 +1,82 @@
+/* forms.css */
+
+/* Global Styles */
+
+
+/* Form */
+.form {
+    border: 1px solid #000000; /* Border for the form */
+    border-radius: 5px; /* Border radius for the form */
+    padding: 20px; /* Padding for the form */
+    max-width: 400px; /* Max width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+/* Buttons */
+button {
+    background-color: blue; /* Blue background for buttons */
+    color: white; /* White text color for buttons */
+    border: none; /* No border for buttons */
+    border-radius: 5px; /* Small border radius for buttons */
+    padding: 10px 20px; /* Padding for buttons */
+    cursor: pointer; /* Cursor style for buttons */
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select,
+input[type="date"],
+input[type="file"] {
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 3px; /* Small border radius for input fields */
+    padding: 8px; /* Padding for input fields */
+    width: 100%; /* Make input fields fill the width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Date Input */
+input[type="date"] {
+    appearance: none; /* Remove default appearance */
+    background-color: #f8f8f8; /* Background color for date input */
+    color: #333; /* Text color for date input */
+    cursor: pointer; /* Cursor style for date input */
+}
+
+/* File Input */
+input[type="file"] {
+    appearance: none; /* Remove default appearance */
+    background-color: #f8f8f8; /* Background color for file input */
+    color: #333; /* Text color for file input */
+    cursor: pointer; /* Cursor style for file input */
+    padding: 8px; /* Padding for file input */
+    border-radius: 3px; /* Border radius for file input */
+    border: 1px solid #ccc; /* Border for file input */
+}
+
+/* File Input Button */
+.input-file-button {
+    background-color: blue; /* Blue background for file input button */
+    color: white; /* White text color for file input button */
+    border: none; /* No border for file input button */
+    border-radius: 3px; /* Border radius for file input button */
+    padding: 8px 12px; /* Padding for file input button */
+    cursor: pointer; /* Cursor style for file input button */
+    margin-left: 8px; /* Add margin to separate button from file input field */
+}
+
+/* Optional: Focus Styles */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+button:focus,
+select:focus,
+input[type="date"]:focus,
+input[type="file"]:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: blue; /* Border color on focus for input fields, buttons, and select input */
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* Optional: Box shadow on focus for input fields, buttons, and select input */
+}

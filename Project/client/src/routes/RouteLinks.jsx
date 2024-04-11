@@ -13,6 +13,10 @@ export const Home = () => {
   return <Link to="/home" />;
 };
 
+export const Test = () => {
+  return <Link to="/test" />;
+};
+
 export const CustomeLink = ({ path, Name }) => {
   <Link to={path} className="link">
     {Name}{" "}
@@ -23,4 +27,5 @@ export default {
   Adduser,
   Login,
   Home,
+  Test,
 };
