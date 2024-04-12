@@ -10,31 +10,16 @@ import SideNavBar from "../components/SideNavBar/SideNavBar";
 import TopBar from "../components/TopBar/TopBar";
 import ProfileCard from "../components/Profile/ProfileCard";
 import NotificationPanel from "../components/NotificationPanel/NotificationPanel";
+import FilterBar from "../components/FilterBar/FilterBar";
+import "../styles/pages/testPage.css"
 
 
 function TestPage() {
-
-  const notifications = [
-    {
-      message: "New message received",
-      sender: "John Doe",
-      date: "2024-04-12"
-    },
-    {
-      message: "Reminder: Meeting tomorrow",
-      sender: "Alice Smith",
-      date: "2024-04-11"
-    },
-    {
-      message: "You have a new task assigned",
-      sender: "Bob Johnson",
-      date: "2024-04-10"
-    }
-  ];
-
   return (
-    <div >
-      <NotificationPanel notifications={notifications}/>
+    <div className="container">
+      <div className="centered">
+        <FilterBar /> {/* Display FilterBar component */}
+      </div>
     </div>
   );
 }

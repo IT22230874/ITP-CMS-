@@ -1,0 +1,13 @@
+/* styles.css */
+
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set height to viewport height */
+  }
+  
+  .centered {
+    text-align: center; /* Center the content horizontally */
+  }
+  

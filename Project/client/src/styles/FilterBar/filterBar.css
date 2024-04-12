@@ -1,0 +1,44 @@
+/* FilterBar.css */
+
+.filter-bar-container {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    width: auto; /* Automatically adjust width */
+  }
+  
+  .filter-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .filter-bar > * {
+    font-size: 14px;
+  }
+  
+  .filter-icon {
+    font-weight: bold;
+    color: #007bff; /* Blue color for the icon */
+  }
+  
+  .filter-by {
+    color: #333; /* Black color for the "Filter By" text */
+  }
+  
+  .divider {
+    height: 1px;
+    width: 1px;
+    background-color: #ddd;
+  }
+  
+  .dropdown {
+    width: 120px; /* Adjust width as needed */
+  }
+  
+  .reset-filter {
+    color: #007bff; /* Blue color for the "Reset" text */
+    cursor: pointer;
+  }
+  
